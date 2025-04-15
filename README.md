@@ -31,7 +31,7 @@ These features are concatenated with trainable embeddings and fed into a BiLSTM.
 
 ## Results
 
-My final solution achieved **0.85977** accuracy on the public leaderboard and **0.8000** ── on the private.
+My final solution achieved **0.85977** accuracy on the public leaderboard and **0.8000** accuracy on the private.
 
 ## How to run
 
