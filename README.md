@@ -7,16 +7,17 @@ The goal of the competition was to predict the stressed syllable in a given Russ
 ## Repository Structure
 
 ```text
-final model/                 # Final solution for inference and training
-├── model.py                # Model architecture (StressLSTM)
-├── train.py                # Training pipeline
-├── dataset.py              # Custom PyTorch Dataset and preprocessing
-├── main.py                 # Full pipeline: training, inference, submission generation
-└── notebook.ipynb          # Jupyter Notebook for running the final solution
+├── final model/              # Final solution for inference and training
+│   ├── model.py             # Model architecture (StressLSTM)
+│   ├── train.py             # Training pipeline
+│   ├── dataset.py          # Custom PyTorch Dataset and preprocessing
+│   ├── main.py             # Full pipeline: training, inference, submission generation
+│   └── notebook.ipynb      # Jupyter Notebook for running the final solution
 
-reasoning.ipynb             # Notebook with exploratory data analysis, experiments and reasoning
-.gitignore                  # Git ignored files
-README.md                   # Project documentation
+├── reasoning.ipynb          # Notebook with exploratory data analysis, experiments and solution reasoning
+├── .gitignore               # Git ignored files
+└── README.md                # Project documentation
+```
 
 ## Approach
 
