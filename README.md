@@ -4,21 +4,19 @@ This repository contains my solution for the [Расстановка ударе�
 
 The goal of the competition was to predict the stressed syllable in a given Russian word.
 
----
-
 ## Repository Structure
 
-.
-├── final model/              # Final solution for inference and training
-│   ├── model.py             # Model architecture (StressLSTM)
-│   ├── train.py             # Training pipeline
-│   ├── dataset.py          # Custom PyTorch Dataset and preprocessing
-│   ├── main.py             # Full pipeline: training, inference, submission generation
-│   └── notebook.ipynb      # Jupyter Notebook for running the final solution
+```text
+final model/                 # Final solution for inference and training
+├── model.py                # Model architecture (StressLSTM)
+├── train.py                # Training pipeline
+├── dataset.py              # Custom PyTorch Dataset and preprocessing
+├── main.py                 # Full pipeline: training, inference, submission generation
+└── notebook.ipynb          # Jupyter Notebook for running the final solution
 
-├── reasoning.ipynb          # Notebook with exploratory data analysis, experiments and solution reasoning
-├── .gitignore               # Git ignored files
-└── README.md                # Project documentation
+reasoning.ipynb             # Notebook with exploratory data analysis, experiments and reasoning
+.gitignore                  # Git ignored files
+README.md                   # Project documentation
 
 ## Approach
 
@@ -33,8 +31,6 @@ These features are concatenated with trainable embeddings and fed into a BiLSTM.
 ## Results
 
 My final solution achieved **0.85977** accuracy on the public leaderboard and **0.8000** ── on the private.
-
----
 
 ## How to run
 
